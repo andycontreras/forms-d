@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script async src="./index.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <form class="form">
+      <div>
+        <span>Nombre</span> <br>
+        <input name="nombre" type="text">
+      </div>
+      <div>
+        <span>De lo aprendido hasta ahora, ¿qué tema te gustó más?</span><br>
+        <select name="selector">
+          <option value="clases">clases</option>
+          <option value="javascript">JavaScript</option>
+          <option value="promesas">promesas</option>
+          <option value="funciones">Funciones</option>
+        </select>
+      </div>
+      <div>
+        <span>Preferís estudiar</span><br>
+        <input name="opcion" type="radio" value="dia">
+        <label for="dia">De Día</label>
+        <input name="opcion" type="radio" value="noche">
+        <label for="noche">De noche</label>
+      </div>
+      <div>
+        <span>¿Cuales fueron los temas más complejos hasta ahora?</span><br>
+        <input type="checkbox" name="tema" id="clases" value="clases">
+        <label for="clases">Clases</label><br>
+        <input type="checkbox" name="tema" id="JavaScript" value="JavaScript">
+        <label for="JavaScript">JavaScript</label><br>
+        <input type="checkbox" name="tema" id="promesas" value="Promesas">
+        <label for="promesas">promesas</label><br>
+        <input type="checkbox" name="tema" id="Funciones" value="Funciones">
+        <label for="Funciones">Funciones</label><br>
+      </div>
+      <button class="boton" type="submit">Enviar</button>
+
+    </form>
+  </div>
+</body>
+</html>

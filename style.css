@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+.container{
+  width: 450px;
+  height: 550px;
+  border: solid;
+  padding: 40px 55px;
+  font-family: "Roboto";
+  font-size: 18px;
+
+}
+
+.form{
+  display: grid;
+  gap: 22px;
+}
+
+.boton{
+  width: 186px;
+  height: 58px;
+}
